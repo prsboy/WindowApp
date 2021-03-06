@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.1401
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{43403984-11BF-40F5-B4E2-1F235FE62666}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0909FEA-E69A-4BA1-9CDA-A57A2319CDC8} = {B0909FEA-E69A-4BA1-9CDA-A57A2319CDC8}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library1", "Library1\Library1.vcxproj", "{B0909FEA-E69A-4BA1-9CDA-A57A2319CDC8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library", "Library1\Library1.vcxproj", "{B0909FEA-E69A-4BA1-9CDA-A57A2319CDC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
